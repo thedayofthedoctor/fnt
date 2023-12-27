@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 """
 THIS FILE IS PART OF NETWORK FOR MWAFU LIBRARY LOVE BOOK STORE BY MATT BELFAST BROWN
 mode_TRA_Api.py - The core part of the Foreign Name Translator.
 
 Author: Matt Belfast Brown
 Creat Date: 2023-12-25
-Version Date: 2023-12-26
+Version Date: 2023-12-27
 Version: 0.0.1
 
 THIS PROGRAM IS FREE FOR EVERYONE,IS LICENSED UNDER GPL-3.0
@@ -26,9 +27,8 @@ see <http://www.gnu.org/licenses/>.
 # define import lib list
 import time
 import uuid
-from hashlib import sha256
-
 import requests
+from hashlib import sha256
 
 
 def fun_encp_code(stri_sign):

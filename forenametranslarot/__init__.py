@@ -3,11 +3,11 @@
 
 """
 THIS FILE IS PART OF NETWORK FOR MWAFU LIBRARY LOVE BOOK STORE BY MATT BELFAST BROWN
-mode_FNM_Tra.py - The core part of the Foreign Name Translator.
+__init__.py - The core part of the Foreign Name Translator.
 
 Author: Matt Belfast Brown
 Creat Date: 2023-12-25
-Version Date: 2023-12-26
+Version Date: 2023-12-27
 Version: 0.0.1
 
 THIS PROGRAM IS FREE FOR EVERYONE,IS LICENSED UNDER GPL-3.0
@@ -23,8 +23,3 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Pub
 You should have received a copy of the GNU General Public License along with this program.  If not,
 see <http://www.gnu.org/licenses/>.
 """
-# define import lib list
-import FroeignNameTranslator.mode_TRA_Api as mode_TRA_Api
-
-def fun_gain_potn(name_need, appl_iden, appl_keys):
-    mode_TRA_Api.fun_gain_pron(name_need, appl_iden, appl_keys)
