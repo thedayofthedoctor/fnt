@@ -23,3 +23,21 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Pub
 You should have received a copy of the GNU General Public License along with this program.  If not,
 see <http://www.gnu.org/licenses/>.
 """
+# import list
+import ForeNameTranslator.mode.mode_FNM_Tra as mode_FNM_Tra
+import ForeNameTranslator.mode.mode_TRA_Api as mode_TRA_Api
+
+# information list
+__title__ = "ForeNameTranslator"
+__version__ = "0.0.1"
+__author__ = "Matt Belfast Brown"
+__license__ = "GPL-3.0"
+__copyright__ = "Copyright (c) 2023 Matt Belfast Brown \nCopyright (C) 2023 Love Book Store Volunteer Association of NWAFU"
+__all__ = ["mode", "mode_FNM_Tra", "mode_TRA_Api"]
+
+# function list
+fun_gain_potn = mode_FNM_Tra.fun_gain_potn
+fun_encp_code = mode_TRA_Api.fun_encp_code
+fun_trca_info = mode_TRA_Api.fun_trca_info
+fun_gain_tran = mode_TRA_Api.fun_gain_tran
+fun_gain_pron = mode_TRA_Api.fun_gain_pron

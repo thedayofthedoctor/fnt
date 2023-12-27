@@ -23,13 +23,10 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Pub
 You should have received a copy of the GNU General Public License along with this program.  If not,
 see <http://www.gnu.org/licenses/>.
 """
-import ForeNameTranslator.
 
-# information list
-__title__ = "AzurLaneToolLib"
-__version__ = "5M3a1"
+__title__ = "ForeNameTranslator.mode"
+__version__ = "0.0.1"
 __author__ = "Matt Belfast Brown"
 __license__ = "GPL-3.0"
-__copyright__ = "Copyright (c) 2020-2023 Matt Belfast Brown"
-__all__ = ["mode", "data", "data_AZR_Lan", "mode_BlP_Cal", "mode_CME_Cal", "mode_EXP_Cal", "mode_FCS_Cal",
-           "mode_FLE_Tol", "mode_MSC_Cal", "mode_KSN_Com", "mode_SRS_Ptl"]
+__copyright__ = "Copyright (c) 2023 Matt Belfast Brown \nCopyright (C) 2023 Love Book Store Volunteer Association of NWAFU"
+__all__ = ["mode_TRA_Api", "mode_FNM_Tra"]
